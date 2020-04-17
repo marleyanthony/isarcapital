@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+:root {
+  --primary-color: #F50357;
+  --secondary-color: #333;
+}
+
+/* Utilities */
+.btn {
+  color: #fff;
+  text-decoration: none;
+  background: var(--primary-color);
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.btn-small {
+  color: #fff;
+  text-decoration: none;
+  background: var(--primary-color);
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 0.25rem 0.75rem;
+}
+
+span {
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  background: #333;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+#navbar ul li {
+  text-align: center;
+  margin: 0.5rem 1rem;
+}
+
+/* Showcase */
+#showcase {
+  height: 100vh;
+  background: url(../imgs/showcase.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  color: #fff;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#showcase .showcase-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+#showcase .showcase-content p {
+  line-height: 1.5;
+}
+
+#showcase .showcase-content .btn:hover {
+  background: rgba(245, 3, 88, 0.829);
+}
+
+/* What We Do */
+#what-we-do {
+  display: block;
+  padding: 1rem;
+}
+
+#what-we-do h2 {
+  text-align: center;
+  margin: 1rem;
+  font-size: 2.5rem;
+}
+
+#what-we-do .what-we-do-items {
+  margin: 1rem;
+}
+
+#what-we-do .what-we-do-item {
+  margin: 1rem;
+  display: flex;
+}
+
+#what-we-do .what-we-do-item div {
+  margin-left: 1.5rem;
+}
+
+#what-we-do .what-we-do-item div h5 {
+  font-size: 1.5rem;
+}
+
+#what-we-do .what-we-do-item div p {
+  margin: 1.5rem 0;
+}
+
+.what-we-do-item i {
+  background: var(--primary-color);
+  align-self: center;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+#what-we-do h5 {
+  display: inline;
+}
+
+.what-we-do-item div {
+  margin: 1rem;
+}
+
+/* Executive Team */
+#executive-team {
+  background-color: var(--secondary-color);
+  height: 30vh;
+  color: #fff;
+}
+
+.executive-team-img {
+  height: 10rem;
+  border-radius: 50%;
+}
+
+#executive-team .executive-team-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 1rem;
+}
+
+#executive-team .executive-team-wrapper .executive-team-content {
+  padding: 1rem;
+}
+
+#executive-team .executive-team-wrapper .executive-team-content h5 {
+  font-size: 1.2rem;
+}
+
+#executive-team .executive-team-wrapper .executive-team-content p {
+  margin-bottom: 1rem;
+}
+
+/* Asset Management */
+#asset-management {
+  height: 30vh;
+}
+
+#asset-management .asset-management-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#asset-management img {
+  height: 10rem;
+}
+
+/* Objective */
+#objective {
+  background: var(--secondary-color);
+  height: 30vh;
+}
+
+/* Fund Highlights */
+#fund-highlights {
+  height: 30vh;
+}
+
+#fund-highlights .fund-highlights-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#fund-highlights img {
+  height: 10rem;
+}
+
+/* Footer */
+#footer {
+  background: #333;
+  height: 15vh;
+  text-align: center;
+}
+
+#footer .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  color: #fff;
+}
+
+#footer .footer-content h3 {
+  font-size: 1.5rem;
+}
+
+/* About HTML */
+#content {
+  text-align: center;
+  padding: 2rem;
+}
+
+#content img {
+  height: 15rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+#content h2 {
+  padding-bottom: 1rem;
+}
+
+/* Contact HTML */
+#contact-form .form-wrapper {
+  border: 1px solid rgb(112, 112, 112);
+  margin: 2rem 3.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#contact-form .form-wrapper .form-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+#contact-form .form-wrapper .form-control label {
+  display: block;
+}
+
+#contact-form .form-wrapper .form-control input,
+#contact-form .form-wrapper .form-control textarea {
+  border: 1px solid var(--secondary-color);
+  margin: 0.5rem 0;
+  border-radius: 3px;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+#contact-form .form-wrapper input[type="submit"] {
+  width: 100%;
+}
